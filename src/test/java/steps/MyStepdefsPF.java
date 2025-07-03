@@ -18,7 +18,7 @@ public class MyStepdefsPF {
     HomePage_PF home;
     @Given("^browser is open$")
     public void browser_is_open() {
-        System.out.println("=== I am inside browser_is_open===");
+        System.out.println("=== I am inside browser_is_open==in= gitbash");
         System.out.println("Inside step - browser is open");
         WebDriverManager.chromedriver().setup();
         d=new ChromeDriver();
